@@ -11,10 +11,10 @@ import pandas as pd
 
 
 #Twitter API credentials
-consumer_key = '67wC5riTM5AAIIUCJIyW6ro82'
-consumer_secret = 'vvIP8mFkmlBM81bAMI37OtUwDHUJwfXXNkTfyQnGn2NXv8PVEB'
-access_token = '560674182-qEeArvmgeCAf6vSZxTZGyMyn8v94FfnCBBADv6pu'
-access_token_secret = 'DHkQc3r4KWOPb8xeS2C8fMkfycq5DgwKzVn4MrrydcVTF'
+consumer_key = 'your-consumer-key'
+consumer_secret = 'your-consumer-secret'
+access_token = 'your-access-token'
+access_token_secret = 'your-access-token-secret'
 
 def get_all_tweets(screen_name):
 	#Twitter only allows access to a users most recent 3240 tweets with this method
