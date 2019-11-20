@@ -1,8 +1,11 @@
 # MissiNews
-A project for a future website to compare and analyse the Mississauga News. Scrapes Tweets from the @MissiNewsRoom twitter account, does a bag of words analysis so you can view the most common topics of the month. 
+A project for a future website to compare and analyse the Mississauga News with a focus on crime news. Scrapes Tweets from the @MissiNewsRoom twitter account, does a bag of words analysis so you can view the most common topics of the month; will try to separate crime tweets to focus on those. 
 
 ## Future Plans:
-The future plan is to categorize these tweets, focus on crime and see what crimes occur during each month, or different seasons and if crime has been increasing in Mississauga over the 2018 to 2019 year. If it is possible to collect the location or generalized area of each of these crimes, it can be plotted on an interactive geographic map.
+<li> Categorize tweets and focus on crimes to see what crimes occur during each month, or different seasons </li>
+<li> Analyse if crimes have been increasing in Mississauga over the 2018 to 2019 year </li>
+<li> Collect location or general area data for each crime and plot it on an interactive geographic map </li>
+<li> Eventually do this with other topics within the news and extend past crimes </li> 
 
 ## Steps to Run:
 1. Install virtualenv: `pip install virtualenv`
