@@ -1,0 +1,11 @@
+ipykernel==5.1
+jupyter
+pandas
+numpy
+matplotlib
+spacy
+nltk
+sklearn
+collections
+fuzzywuzzy
+pprint
