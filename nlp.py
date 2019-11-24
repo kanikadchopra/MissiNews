@@ -40,6 +40,16 @@ def get_pos(word):
     return tag_dict.get(tag, wordnet.NOUN)
 
 def spacy_lemmatize(sentence):
+    '''
+    Given a sentence, this will use spaCy's lemmatization tools to lemmatize
+    the words in the sentence and tokenize them 
+    
+    Args: 
+        sentence (str): The sentence to be tokenized and lemmatized 
+    Returns:
+        A list of words in the sentence after lemmatization 
+    
+    '''
     nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
     doc = nlp(sentence)
     

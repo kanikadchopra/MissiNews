@@ -18,6 +18,7 @@ from nlp import get_pos
 
 def jaccard(str1, str2):
     '''
+    Implements a jaccard similarity analysis based on the two strings 
     '''
     a = set(str1.split())
     b = set(str2.split())
@@ -27,6 +28,10 @@ def jaccard(str1, str2):
     return float(len(c))/(len(a) + len(b) - len(c))
 
 def get_vectors(*strs):
+    ''' 
+    Given strings in *strs, this will get the vectors and return them into
+    an array for use in cosine similiarity 
+    '''
     text = [t for t in strs]
     vectorizer = CountVectorizer(text)
     vectorizer.fit(text)
@@ -34,6 +39,9 @@ def get_vectors(*strs):
     
 
 def cosine(*strs):
-
+    ''' 
+    Given multiple strings, this will return out the cosine similarity matrix
+    between the strings      
+    '''
     vectors = [vec for vec in get_vectors(*strs)]
     return cosine_similarity(vectors)
