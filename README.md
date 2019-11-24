@@ -24,3 +24,4 @@ A project for a future website to compare and analyse the Mississauga News with 
 - **MissiNews_Visualizations.ipynd**: Visualizations for the year 2019 to compare crime in each month so far
 - **nlp.py**: Helper functions for some of the NLP process using both nltk and spaCy
 - **similarity.py**: Helper functions to check for cosine similiarity and jacard similarity with the sentences
+- **MissiNews_2019.png**: Snapshot of the Plot.ly Interactive Plot with the 2019 Analysis from MissiNews_Visualizations
