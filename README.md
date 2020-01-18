@@ -10,19 +10,6 @@ The long-term goal would be to have a website that compares and analyzes the dif
 <li> Collecting and labelling categories for Mississauga News tweets to apply transfer learning to classify news-related tweets 
 <li> Created a general visualization for crime related data 
 
-## Future Plans:
-<li> Try reducing features to reduce overfitting 
-<li> Learn how to handle imbalanced datasets and see if this helps increase the accuracy 
-<li> Collect and label more news-related tweets 
-<li> Apply transfer learning to train the model on the news-related tweets 
-<li> Use cosine_similarity to make sure tweets based on the same topic are not double counted </li>
-
-## Long-Term Plans 
-<li> Analyze crime trends over 2018 to 2020 on a monthly and seasonal basis </li>
-<li> Create more interactive visualizations so user can choose a category and time span and see the news activity during that range
-<li> Collect location or general area data for each crime and plot it on an interactive geographic map </li>
-<li> Eventually do this with other cities as well </li> 
-
 ## Steps to Run:
 1. Install virtualenv: `pip install virtualenv`
 2. Create your virtual environment: `virtualenv news`
@@ -43,3 +30,17 @@ The long-term goal would be to have a website that compares and analyzes the dif
 - **nlp.py**: Helper functions for some of the NLP process using both nltk and spaCy
 - **similarity.py**: Helper functions to check for cosine similiarity and jacard similarity with the sentences
 - **MissiNews_2019.png**: Snapshot of the Plot.ly Interactive Plot with the 2019 Analysis from MissiNews_Visualizations
+
+
+## Future Plans:
+<li> Try reducing features to reduce overfitting 
+<li> Learn how to handle imbalanced datasets and see if this helps increase the accuracy 
+<li> Collect and label more news-related tweets 
+<li> Apply transfer learning to train the model on the news-related tweets 
+<li> Use cosine_similarity to make sure tweets based on the same topic are not double counted </li>
+
+## Long-Term Plans 
+<li> Analyze crime trends over 2018 to 2020 on a monthly and seasonal basis </li>
+<li> Create more interactive visualizations so user can choose a category and time span and see the news activity during that range
+<li> Collect location or general area data for each crime and plot it on an interactive geographic map </li>
+<li> Eventually do this with other cities as well </li> 
