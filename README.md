@@ -3,6 +3,8 @@ Build a news category classifier using Huffpost News headlines and then apply tr
 
 The long-term goal would be to have a website that compares and analyzes the different news categories in Missisauga from tweets so you can see common topics or trends, for example increasing crime during certain months. 
 
+Data Source: https://www.kaggle.com/rmisra/news-category-dataset
+
 ## Completed
 <li> Trained a news category classifier using Multinomial Naïve Bayes, SVM (Linear, Polynomial, Gaussian), Multinomial Logistic Regression, and Random Forest based on 60k Huffpost headlines
 <li> Fine-tuned each model using a variety of parameters with GridSearchCV to achieve a maximum accuracy of 88% with Linear SVM
@@ -21,7 +23,6 @@ The long-term goal would be to have a website that compares and analyzes the dif
 
 ## Model Training Files 
 - **NewsHeadlines.ipynb:** Data preprocessing and training the following models to classify news categories - Multinomial Naive Bayes, Linear SVM, Polynomial SVM (degree = 2,3,4), Gaussian SVM, Logistic Regression, Random Forest
-- **News_Category_Dataset_v2.json:** Dataset with 200K Huffpost article data 
 
 ## Tweet Analysis Files
 
