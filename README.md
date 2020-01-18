@@ -19,11 +19,11 @@ The long-term goal would be to have a website that compares and analyzes the dif
 6. Create virtual environment kernal for jupyter notebook `ipython kernel install --user --name=MissiNews_Analysis`
 7. Run jupyter notebook: `jupyter notebook`
 
-## Model Training 
+## Model Training Files 
 - **NewsHeadlines.ipynb:** Data preprocessing and training the following models to classify news categories - Multinomial Naive Bayes, Linear SVM, Polynomial SVM (degree = 2,3,4), Gaussian SVM, Logistic Regression, Random Forest
 - **News_Category_Dataset_v2.json:** Dataset with 200K Huffpost article data 
 
-## Tweet Analysis Files:
+## Tweet Analysis Files
 
 - **MissiNews.ipynb**: Mississauga News Analysis; Looks at the crime in January as a demo 
 - **MissiNews_Visualizations.ipynb**: Visualizations for the year 2019 to compare crime in each month so far
@@ -32,14 +32,14 @@ The long-term goal would be to have a website that compares and analyzes the dif
 - **MissiNews_2019.png**: Snapshot of the Plot.ly Interactive Plot with the 2019 Analysis from MissiNews_Visualizations
 
 
-## Future Plans:
+## Future Plans
+### SHORT TERM
 <li> Try reducing features to reduce overfitting 
 <li> Learn how to handle imbalanced datasets and see if this helps increase the accuracy 
 <li> Collect and label more news-related tweets 
 <li> Apply transfer learning to train the model on the news-related tweets 
 <li> Use cosine_similarity to make sure tweets based on the same topic are not double counted </li>
-
-## Long-Term Plans 
+### LONG TERM 
 <li> Analyze crime trends over 2018 to 2020 on a monthly and seasonal basis </li>
 <li> Create more interactive visualizations so user can choose a category and time span and see the news activity during that range
 <li> Collect location or general area data for each crime and plot it on an interactive geographic map </li>
