@@ -40,6 +40,7 @@ Data Source: https://www.kaggle.com/rmisra/news-category-dataset
 <li> Collect and label more news-related tweets 
 <li> Apply transfer learning to train the model on the news-related tweets 
 <li> Use cosine_similarity to make sure tweets based on the same topic are not double counted </li>
+
 ### LONG TERM 
 <li> Analyze crime trends over 2018 to 2020 on a monthly and seasonal basis </li>
 <li> Create more interactive visualizations so user can choose a category and time span and see the news activity during that range
